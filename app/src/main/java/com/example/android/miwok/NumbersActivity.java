@@ -61,14 +61,11 @@ public class NumbersActivity extends AppCompatActivity {
 
                 //stop playback n clean source code
                 releaseMediaPlayer();
-//                mAudioManager.unregisterMediaButtonEventReceiver(RemoteControlReceiver);
-//                mAudioManager.abandonAudioFocus(AfterChangeListener);
-//
+
             }
 
         }
     };
-
 
     //this listener gets triggered when the link mediaplayer has completed playing diff audio
     private MediaPlayer.OnCompletionListener mCompletionListener = (new MediaPlayer.OnCompletionListener() {
@@ -115,6 +112,8 @@ public class NumbersActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+
+                //we fetch the words by the following
                 Word word = words.get(position);
 
                 ///request audio focus for play back
@@ -154,9 +153,6 @@ public class NumbersActivity extends AppCompatActivity {
         releaseMediaPlayer();
 
     }
-
-
-    //clean up media player
 
     private void releaseMediaPlayer() {
         if (mediaplayer != null) {

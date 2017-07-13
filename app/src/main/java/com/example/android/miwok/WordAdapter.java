@@ -32,14 +32,20 @@ class WordAdapter extends ArrayAdapter<Word> {
     public View getView(int position, View convertView, ViewGroup parent) {
         Word currentWord = getItem(position);
 
+//this describes how the activity must show thge layout list_item is reference of how things must display
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+            //take list item looking at an array list arraylist
+            //because we inflated we can target anything depending on position
         }
 
+
+        // miworkTextView is the TextView within list_item.xml
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
         miwokTextView.setText(currentWord.getMiwokTranslation());
 
+        // defaultTextView is the TextView within list_item.xml
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
         defaultTextView.setText(currentWord.getDefaultTranslation());
 
