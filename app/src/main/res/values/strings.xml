@@ -1,0 +1,70 @@
+<!--
+BY TSHIBAKELA MUKOVHE @CODE-TRIBE work done with the help of udacity videos and online resource code
+ Instructor Sir Poisson MM
+  @2017 Thembisa EWC CodeTribe  Member
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Miwok</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members</string>
+
+
+    <!-- Numbers-->
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <string name="four">four</string>
+    <string name="five">five</string>
+    <string name="six">six</string>
+    <string name="seven">seven</string>
+    <string name="eight">eight</string>
+    <string name="nine">nine</string>
+    <string name="ten">ten</string>
+
+    <!-- Family Members-->
+    <string name="father">father</string>
+    <string name="mother">mother</string>
+    <string name="son">son</string>
+    <string name="daughter">daughter</string>
+    <string name="olderbrother">older brother</string>
+    <string name="youngerbrother">younger brother</string>
+    <string name="oldersister">older sister</string>
+    <string name="youngersister">younger sister</string>
+    <string name="grandmother">grandmother</string>
+    <string name="grandfather">grandfather</string>
+
+    <!-- Colors-->
+    <string name="red">red</string>
+    <string name="mustardyellow">mustard yellow</string>
+    <string name="dustyyellow">dusty yellow</string>
+    <string name="green">green</string>
+    <string name="brown">brown</string>
+    <string name="gray">gray</string>
+    <string name="black">black</string>
+    <string name="white">white</string>
+
+    <!-- phrases-->
+    <string name="you">Where are you going?</string>
+    <string name="name">What is your name?</string>
+    <string name="my">My name is...</string>
+    <string name="feeling">How are you feeling?</string>
+    <string name="good">I am feeling good.</string>
+    <string name="coming">Are you coming.</string>
+    <string name="yes">Yes I am coming</string>
+    <string name="I">I am coming.</string>
+    <string name="go">Lets go.</string>
+    <string name="come">Come here</string>
+    <string name="action_settings">action</string>
+
+</resources>
